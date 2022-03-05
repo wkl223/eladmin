@@ -38,6 +38,8 @@
         <druid.version>1.1.24</druid.version>
         <commons-pool2.version>2.5.0</commons-pool2.version>
         <mapstruct.version>1.3.1.Final</mapstruct.version>
+        <m2e.apt.activation>jdt_apt</m2e.apt.activation>
+
     </properties>
 
     <dependencies>
@@ -157,7 +159,6 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
         <!-- excel工具 -->
         <dependency>
             <groupId>org.apache.poi</groupId>
